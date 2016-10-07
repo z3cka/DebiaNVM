@@ -2,6 +2,6 @@
 FROM debian:jessie
 MAINTAINER Casey Grzecka <c@sey.gr>
 
-RUN apt update && apt install -y curl
+RUN apt update && apt install -y curl vim
 
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
